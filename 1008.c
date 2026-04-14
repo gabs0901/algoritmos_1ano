@@ -13,9 +13,7 @@ int main(){
     sal = hr * val;
     
     //impressao das variaveis
-    printf("NUMBER = %d\n""SALARY = U$ %f", func,sal);
+    printf("NUMBER = %d\n""SALARY = U$ %.2f\n", func,sal);
 
-    return 0
-
-
+    return 0;
 }
