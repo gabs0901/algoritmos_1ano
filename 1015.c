@@ -4,17 +4,16 @@
 int main()
 {
     //declaracao de variaveis
-    float x1, x2, y1, y2, d1, d2; //variaveis de entrada 
+    float x1, x2, y1, y2, d; //variaveis de entrada 
 
     //leitura de variaveis
-    scanf("%f, %f, %f, %f", &x1, &y1, &x2, &y2);
+    scanf("%f %f %f %f", &x1, &y1, &x2, &y2);
    
    //calculo
-    d1 = (x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
-    d2 = sqrt(d1);
+    d = sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 
    //impressao de variaveis
-    printf("%.4f", d2);
+    printf("%.4f", d);
     
     return 0;
 }
