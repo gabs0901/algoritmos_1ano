@@ -9,17 +9,14 @@ int main (){
         int a = x;
         x = y;
         y = a;
-    } 
-    for (i = 0; x < y; i+=2){
+    }
+
+    for (i = 0; x < y; i++){
         if(x%2)
             x + 2;
         else
             x + 1;
-
-    }     s += i;
+    } s += 2;
     printf("%d\n", s);
     return 0;
 }
-
-
-
