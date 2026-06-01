@@ -2,16 +2,17 @@
 #include <stdio.h>
 
 int main (){
-    int n;
-    int i = 0;
+	//declaracao de variaveis
+    int n; 		//valor a ser lido 
+    int i = 1;	//contador
  
+ 	//leitura de variaveis
     scanf("%d", &n);
 
-    while(i < n){
-        
-
-    
-
+    while(i < 10000){
+        if(i % n == 2)
+        	printf("%d\n", i);
+   	i++;
     }
     return 0;
 }
