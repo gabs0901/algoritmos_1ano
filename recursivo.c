@@ -37,15 +37,10 @@ int pot (int a, int b){
 }
 //main=================================================================================================================
 int main(){
-    int rSoma = soma(3, 2);
-    int rSub = sub(3, 2);
-    int rMult = mult(3, 2);
-    int rDiv = div(13, 3);
-    int rPot = pot(2, 3);
-    printf("resultado %d\n", rSoma);
-    //printf("resultado %d\n", rSub);
-    //printf("resultado %d\n", rMult);
-    //printf("resultado %d\n", rDiv);
-    //printf("resultado %d\n", rPot);
+    printf("resultado %d\n", soma(3,2));
+    printf("resultado %d\n", sub(3, 2));
+    printf("resultado %d\n", mult(3, 2));
+    printf("resultado %d\n", div(13, 3));
+    printf("resultado %d\n", pot(2, 3));
     return 0;
 }
