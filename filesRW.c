@@ -21,7 +21,7 @@ int main(){
         exit(1);
     }
     //abertura ok, ler do arquivo
-    while(fscanf(texto, "%d", &num)){    
+    while(fscanf(texto, "%d", &num) && !feof(texto)){
         sum += num;
     } printf("Soma = %d\n", sum);
     
